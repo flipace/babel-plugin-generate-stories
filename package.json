@@ -1,0 +1,19 @@
+{
+  "name": "babel-plugin-generate-stories",
+  "version": "1.0.0",
+  "description": "Automatically generates stories for use with storybook.",
+  "main": "dist/index.js",
+  "author": "Patrick Hübl-Neschkudla <neschkudla@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.0.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "scripts": {
+    "build": "babel ./src -d ./dist",
+    "test": "jest ./tests"
+  }
+}
