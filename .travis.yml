@@ -1,0 +1,14 @@
+cache:
+  directories:
+    - node_modules
+
+language: node_js
+node_js:
+  - "6.0"
+  - "7.0"
+  - "8.0"
+install:
+  - yarn
+
+script:
+  - yarn test
