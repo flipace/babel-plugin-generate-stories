@@ -1,9 +1,15 @@
 # babel-plugin-generate-stories
+
 [![NPM Version](https://img.shields.io/npm/v/babel-plugin-generate-stories.svg)](https://npmjs.com/package/babel-plugin-generate-stories)
 [![Build Status](https://travis-ci.org/flipace/babel-plugin-generate-stories.svg?branch=master)](https://travis-ci.org/flipace/babel-plugin-generate-stories)
 [![License](https://img.shields.io/npm/l/babel-plugin-generate-stories.svg)](https://npmjs.com/package/babel-plugin-generate-stories)
 
 Automatically generate storybook stories for your react components without writing a single line of additional code.
+
+> If you use [react-themeit](https://github.com/flipace/react-themeit) it will even generate stories for each theme of your components.
+
+<a href="_media/demo.png"><img src="_media/demo.png" width="200" /></a>
+<a href="_media/demo-themeit.png"><img src="_media/demo-themeit.png" width="200" /></a>
 
 ## Installation
 
