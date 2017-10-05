@@ -24,6 +24,7 @@ function ensureDir(filePath) {
 
 function getFileName(absFilename = req("filename")) {
   let filename = path.basename(absFilename);
+  const regexp = /\.([0-9]*)\./;
 
   while (fileNames.indexOf(filename) > -1) {
     const match = filename.match(regexp);
